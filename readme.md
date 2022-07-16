@@ -1,11 +1,12 @@
 # Visão Geral sobre TDD
-~~
-    Na comunidade Ruby, o uso de TDD(testdriven development) é constante e todo o projeto open-source famoso na comunidade possui testes automatizados. Um desenvolvedor Ruby completo possui esse padrão no dia a dia.~~
+
+    Na comunidade Ruby, o uso de TDD(testdriven development) é constante e todo o projeto open-source famoso na comunidade possui testes automatizados. Um desenvolvedor Ruby completo possui esse padrão no dia a dia. 
+  <br>
 
 #### **1.1 TDD e sua história . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .**
-~~
+
     O TDD surgiu primeiramente com a biblioteca **SUnit**, criada por Kent Beck, a ideia dele era facilitar a execução dos testes, então ele automatizou essa tarefa que era realizada manualmente. Isso na década de 90. Após alguns anos, em um evento bem famoso de orientação a objetos, o OOPSLA(ObjectOriented Programming, Systems, Languages & Applications), Kent Beck e Erich Gamma escreveram uma versão do SUnit em Java, o **JUnit**.
-~~
+<br>
     O JUnit, ele ganhou muito epaço no mundo de desenvovimento de software, e foi sendo desenvolvido para outras linguagens, como Ruby, C++, Perl, Python, PHP e outras. Esse padrão formada por todas esses bibliotecas, recebeu o nome de**xUnit**.
 ~~
     A biblioteca xUnit amadureceu, utilizar a biblicateca em si, não era mais visto apenas como uma atividade de teste, mas sim como uma atividade de design de (projeto) de código. Esse visão fez sentindo, porque, antes de implementar um determinado método ou classe, os usuários de xUnit, primeiro escrevem um teste, especificando o comportamento esperado, para depois fazer o código que vai fazer com que esse teste passe. Ao fazer uso das bibliotecas do xUnit, se originou o nome de testdriven development (TDD).
